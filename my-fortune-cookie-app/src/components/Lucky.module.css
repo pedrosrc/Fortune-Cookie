@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    background-color: #dd7b22;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    font-family: 'Carter One',Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+h1{
+    color: #dd7b22;
+    font-family: 'Carter One',Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+img{
+    width: 350px;
+    height: 350px;
+}
+
+.text{
+    font-style: italic;
+    color: #dd7b22;
+    text-align: center;
+}
+.button{
+    border: none;
+    padding: 7px;
+    background-color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+}
+.button:hover{
+    color: white;
+    background-color: #dd7b22;
+    transition: .3s;
+}
